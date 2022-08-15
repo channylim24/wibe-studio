@@ -99,7 +99,7 @@ function NavBar() {
 
   return (
     <NavContainer
-      click={click}
+      click={click ? "true" : ""}
       initial={{ y: "-100%" }}
       animate={{ y: 0 }}
       transition={{ duration: 2, delay: 5 }}
